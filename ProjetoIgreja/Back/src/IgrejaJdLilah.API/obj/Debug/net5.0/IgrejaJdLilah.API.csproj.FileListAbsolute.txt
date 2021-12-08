@@ -1,0 +1,115 @@
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\appsettings.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.exe
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.deps.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.runtimeconfig.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.runtimeconfig.dev.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\ref\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.pdb
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csproj.AssemblyReference.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.AssemblyInfoInputs.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.AssemblyInfo.cs
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csproj.CoreCompileInputs.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\staticwebassets\IgrejaJdLilah.API.StaticWebAssets.Manifest.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\staticwebassets\IgrejaJdLilah.API.StaticWebAssets.xml
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\scopedcss\bundle\IgrejaJdLilah.API.styles.css
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.RazorTargetAssemblyInfo.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csproj.CopyComplete
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\ref\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.pdb
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.genruntimeconfig.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csprojAssemblyReference.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.AssemblyInfoInputs.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.AssemblyInfo.cs
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csproj.CoreCompileInputs.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\ref\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.pdb
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\appsettings.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.exe
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.deps.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.runtimeconfig.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.runtimeconfig.dev.json
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\ref\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.pdb
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\staticwebassets\IgrejaJdLilah.API.StaticWebAssets.Manifest.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\staticwebassets\IgrejaJdLilah.API.StaticWebAssets.xml
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\scopedcss\bundle\IgrejaJdLilah.API.styles.css
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.RazorTargetAssemblyInfo.cache
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csproj.CopyComplete
+C:\Users\cleit\OneDrive\Documentos\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.genruntimeconfig.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\appsettings.json
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.exe
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.deps.json
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.runtimeconfig.json
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.runtimeconfig.dev.json
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\ref\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\IgrejaJdLilah.API.pdb
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csprojAssemblyReference.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.AssemblyInfoInputs.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.AssemblyInfo.cs
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csproj.CoreCompileInputs.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\staticwebassets\IgrejaJdLilah.API.StaticWebAssets.Manifest.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\staticwebassets\IgrejaJdLilah.API.StaticWebAssets.xml
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\scopedcss\bundle\IgrejaJdLilah.API.styles.css
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.RazorTargetAssemblyInfo.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.csproj.CopyComplete
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\ref\IgrejaJdLilah.API.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.pdb
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.genruntimeconfig.cache
