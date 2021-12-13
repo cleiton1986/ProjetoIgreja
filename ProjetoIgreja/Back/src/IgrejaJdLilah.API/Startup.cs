@@ -1,18 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using IgrejaJdLilah.API.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using IgrejaJdLilah.Persistence.Contexto;
+using IgrejaJdLilah.Application.Contratos.IgrejaJdLilah;
+using IgrejaJdLilah.Application.Servicos.IgrejaJdLilah;
+using IgrejaJdLilah.Domain.Repository.Contrato;
+using IgrejaJdLilah.Persistence.Repository;
 
 namespace IgrejaJdLilah.API
 {
@@ -31,10 +28,25 @@ namespace IgrejaJdLilah.API
         public void ConfigureServices(IServiceCollection services)
         {
             //Configuraçao para sql com Configuration
-            services.AddDbContext<DataContext>(
+            services.AddDbContext<IgrejaJdLilahContext>(
                 context => context.UseSqlite(Configuration.GetConnectionString("DefaultConnection"))
             );
-            services.AddControllers();
+            //Pelo nuget foi baixado o Microsoft.AspNetCore.Mvc.NewtonsoftJson vs5.0.3 para a API
+            //Então será possivel usar o  AddNewtonsoftJson e espercificar para ignorar lops (referencia circular)
+            //Em referencia de classes 
+            services.AddControllers()
+                    .AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling =
+                         Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                    );
+
+
+
+            //Aqui Especifico a referencia da injeção de dependia pelo controller
+            services.AddScoped<IEventoApp, EventoApp>();
+            services.AddScoped<IEventoRepository, EventoRepository>();
+
+            
+
             //Permite configuração de acesso
             services.AddCors();
             services.AddSwaggerGen(c =>

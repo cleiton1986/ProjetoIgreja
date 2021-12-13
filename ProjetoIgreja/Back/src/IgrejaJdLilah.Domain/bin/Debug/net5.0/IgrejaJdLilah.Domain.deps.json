@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "IgrejaJdLilah.Domain/1.0.0": {
+        "runtime": {
+          "IgrejaJdLilah.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IgrejaJdLilah.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -27,7 +27,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
+                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -79,16 +87,193 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj",
+        "projectName": "IgrejaJdLilah.Application",
+        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj",
+        "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
+                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj"
+              },
+              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj": {
+                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
+        "projectName": "IgrejaJdLilah.Domain",
+        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
+        "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj",
+        "projectName": "IgrejaJdLilah.Persistence",
+        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj",
+        "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
+                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

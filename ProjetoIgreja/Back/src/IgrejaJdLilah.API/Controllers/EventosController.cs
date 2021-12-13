@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using IgrejaJdLilah.API.Data;
-using IgrejaJdLilah.API.Models;
+using IgrejaJdLilah.Domain.Entidades;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using IgrejaJdLilah.Persistence.Contexto;
+using IgrejaJdLilah.Application.Contratos.IgrejaJdLilah;
+using System.Threading.Tasks;
+using System;
+using Microsoft.AspNetCore.Http;
 
 namespace IgrejaJdLilah.API.Controllers
 {
@@ -13,41 +14,128 @@ namespace IgrejaJdLilah.API.Controllers
     [Route("api/[controller]")]
     public class EventosController : ControllerBase
     {
-        public readonly DataContext _context;
-        public EventosController(DataContext context)
+        public readonly IEventoApp _eventoApp;
+        public EventosController(IEventoApp eventoApp)
         {
-            _context = context;
+            _eventoApp = eventoApp;
         }
 
         [HttpGet("{id}")]
-        public Evento Get(int id)
+        public  async Task<ActionResult<Evento>> GetById(int id)
         {
-            return _context.Eventos.FirstOrDefault(x => x.EventoId == id);
+           //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
+            //ex: 200, 404
+           
+            try 
+            {
+               var evento = await _eventoApp.GetEventoByIdAsync(id, true);
+               if(evento == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
+               
+               return Ok(evento);
+            }
+            catch(Exception ex)
+            {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                                        $"Erro ao tentar recuperar eventos, erro: {ex.Message}");
+            }
         }
 
         [HttpGet]
-        public IEnumerable<Evento> GetById()
+        public async Task<IActionResult> Get()
         {
-            return _context.Eventos;
+            //IActionResult = Retorna o status code do Http
+            //ex: 200, 404
+           
+            try 
+            {
+               var evento = await _eventoApp.GetAllEventosByAsync(true);
+               if(evento == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
+               
+               return Ok(evento);
+            }
+            catch(Exception ex)
+            {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                                        $"Erro ao tentar recuperar eventos, erro: {ex.Message}");
+            }
+        }
+        [HttpGet("tema/{tema}")]
+        public  async Task<IActionResult> GetByTema(string tema)
+        {
+           //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
+            //ex: 200, 404
+           
+            try 
+            {
+               var evento = await _eventoApp.GetAllEventosByTemaAsync(tema, true);
+               if(evento == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
+               
+               return Ok(evento);
+            }
+            catch(Exception ex)
+            {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                                        $"Erro ao tentar recuperar eventos, erro: {ex.Message}");
+            }
         }
 
-
         [HttpPost]
-        public string Post()
+        public async Task<IActionResult> Post(Evento model)
         {
-            return "Exemplo de Post";
+            //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
+            //ex: 200, 404
+           
+            try 
+            {
+               var evento = await _eventoApp.AddEvento(model);
+               if(evento == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
+               
+               return Ok(evento);
+            }
+            catch(Exception ex)
+            {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                                        $"Erro ao tentar inserir o eventos, erro: {ex.Message}");
+            }
         }
 
         [HttpPut("{id}")]
-        public string Put(int id)
+        public async Task<IActionResult> Put(Evento model)
         {
-            return $"Exemplo de Put com id = {id}";
+            //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
+            //ex: 200, 404
+           
+            try 
+            {
+               var evento = await _eventoApp.AleterarEvento(model);
+               if(evento == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
+               
+               return Ok(evento);
+            }
+            catch(Exception ex)
+            {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                                        $"Erro ao tentar atualizar o eventos, erro: {ex.Message}");
+            }
         }
 
         [HttpDelete("{id}")]
-        public string Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            return $"Exemplo de Delete com id = {id}";
+            //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
+            //ex: 200, 404
+           
+            try 
+            {
+                return await _eventoApp.ExcluirEvento(id) ? 
+                                        Ok("Deletado") : 
+                                        BadRequest("Evento não Deletado");
+            }
+            catch(Exception ex)
+            {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, 
+                                        $"Erro ao tentar inserir o eventos, erro: {ex.Message}");
+            }
         }
     }
 }

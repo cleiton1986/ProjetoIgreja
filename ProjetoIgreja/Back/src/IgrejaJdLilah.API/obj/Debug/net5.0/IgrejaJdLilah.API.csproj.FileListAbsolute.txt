@@ -113,3 +113,13 @@ C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoI
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\ref\IgrejaJdLilah.API.dll
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.pdb
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.genruntimeconfig.cache
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Api\bin\Debug\net5.0\IgrejaJdLilah.Application.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Api\bin\Debug\net5.0\IgrejaJdLilah.Domain.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Api\bin\Debug\net5.0\IgrejaJdLilah.Persistence.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Api\bin\Debug\net5.0\IgrejaJdLilah.Application.pdb
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Api\bin\Debug\net5.0\IgrejaJdLilah.Domain.pdb
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Api\bin\Debug\net5.0\IgrejaJdLilah.Persistence.pdb
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
