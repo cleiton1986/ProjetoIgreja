@@ -41,6 +41,20 @@ namespace IgrejaJdLilah.Application.Servicos.IgrejaJdLilah
 
             return null;
         }
+        public async Task<string[]> GetAllEventosImagensByAsync()
+        {
+            try
+            {
+                var imagens = await _eventoRepository.GetAllEventosImagensByAsync();
+                if (imagens == null) return null;
+
+                return imagens;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
         public Evento GetEventoById(int enventoId, bool includeEndereco)
         {
             var envento = new Evento();

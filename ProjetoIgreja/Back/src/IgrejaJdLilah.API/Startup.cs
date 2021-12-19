@@ -10,6 +10,7 @@ using IgrejaJdLilah.Application.Contratos.IgrejaJdLilah;
 using IgrejaJdLilah.Application.Servicos.IgrejaJdLilah;
 using IgrejaJdLilah.Domain.Repository.Contrato;
 using IgrejaJdLilah.Persistence.Repository;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace IgrejaJdLilah.API
 {
@@ -29,7 +30,9 @@ namespace IgrejaJdLilah.API
         {
             //Configuraçao para sql com Configuration
             services.AddDbContext<IgrejaJdLilahContext>(
-                context => context.UseSqlite(Configuration.GetConnectionString("DefaultConnection"))
+                context => context.UseSqlite(Configuration.GetConnectionString("DefaultConnection"))  
+                .ConfigureWarnings(w => w.Ignore(RelationalEventId.MultipleCollectionIncludeWarning))
+               // .UseLoggerFactory(logger.Value)
             );
             //Pelo nuget foi baixado o Microsoft.AspNetCore.Mvc.NewtonsoftJson vs5.0.3 para a API
             //Então será possivel usar o  AddNewtonsoftJson e espercificar para ignorar lops (referencia circular)

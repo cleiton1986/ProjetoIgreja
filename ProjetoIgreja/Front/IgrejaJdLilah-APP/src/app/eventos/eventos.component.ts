@@ -1,30 +1,43 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+
+import { Component, OnInit, TemplateRef } from '@angular/core';
+
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { NgxSpinnerService } from 'ngx-spinner';
+import { ToastrService } from 'ngx-toastr';
+
+import { Evento } from '../models/Evento';
+import { EventoService } from '../services/evento.service';
 
 @Component({
   selector: 'app-eventos',
   templateUrl: './eventos.component.html',
   styleUrls: ['./eventos.component.scss']
+  //Provider que permite toda a aplicação visualizar a classe EventoService
+  //passou a ser usado dento de module
+  //  providers: [EventoService]
+
 })
 export class EventosComponent implements OnInit {
 
-  public eventos: any = {}
-  public eventosFiltrados: any = [];
-  larguraImg: number = 120;
-  margemImg: number = 2;
-  exibirImagem: boolean = true;
-  private _filtroLista: string = '';
+  modalRef?: BsModalRef;
+  public eventos: Evento[] = [];
+  public eventosFiltrados: Evento[] = [];
+
+  public larguraImg = 120;
+  public margemImg = 2;
+  public exibirImagem = true;
+  private filtroListado = '';
 
   public get filtroLista(): string{
-    return this._filtroLista;
+    return this.filtroListado;
   }
 
   public set filtroLista(value: string){
-     this._filtroLista = value;
+     this.filtroListado = value;
      this.eventosFiltrados = this.filtroLista ? this.filtrarEventos(this.filtroLista) : this.eventos;
   }
 
-  filtrarEventos(filtrarPor: string): any{
+  public filtrarEventos(filtrarPor: string): Evento[]{
      filtrarPor = filtrarPor.toLocaleLowerCase();
      return this.eventos.filter(
        (evento: { tema: string; local: string }) => evento.tema.toLocaleLowerCase().indexOf(filtrarPor) !== -1 ||
@@ -34,30 +47,65 @@ export class EventosComponent implements OnInit {
 
   }
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private eventoService: EventoService,
+    private modalService: BsModalService,
+    private toastr: ToastrService,
+    private spinner: NgxSpinnerService
 
-  ngOnInit(): void {
+    ) { }
+
+  public ngOnInit(): void {
     this.getEventos();
+    this.spinner.show();
   }
 
-  alerarImagem(){
+  public alerarImagem(): void{
      this.exibirImagem = !this.exibirImagem;
   }
 
-
-
-  //Através da injeção de dependencia no construtor e no app.componet
-  //Componte HttpCliente, é possivel chamar o controller Eventos da
-  //camanda API
-  public getEventos(): void {
-    this.http.get('https://localhost:5001/api/eventos').subscribe(
-       response => {
-         this.eventos = response;
+//Pego o get http pelo metodo que esta em eventoService
+/*
+public getEventos(): void {
+    this.eventoService.getEvento().subscribe(
+       (eventos: Evento[]) => {
+         this.eventos = eventos;
          this.eventosFiltrados = this.eventos;
 
         },
-       error => console.log(error)
-    );
+       error => (error: any) =>{
+         this.spinner.hide();
+       },
 
+    );
   }
+*/
+
+  public getEventos(): void {
+    this.eventoService.getEvento().subscribe({
+       next: (eventos: Evento[]) => {
+          this.eventos = eventos;
+          this.eventosFiltrados = this.eventos;
+       },
+       error:(error: any) => {
+          this.toastr.error("Erro ao carregar os Eventos", "Error!")
+          this.spinner.hide();
+       },
+       complete: () => this.spinner.hide()
+    });
+  }
+
+  openModal(template: TemplateRef<any>): void {
+    this.modalRef = this.modalService.show(template, {class: 'modal-sm'});
+  }
+
+  confirm(): void {
+    this.modalRef?.hide();
+    this.toastr.success('O Evento foi deletado com sucesso', 'Deletado!');
+  }
+
+  decline(): void {
+    this.modalRef?.hide();
+  }
+
 }

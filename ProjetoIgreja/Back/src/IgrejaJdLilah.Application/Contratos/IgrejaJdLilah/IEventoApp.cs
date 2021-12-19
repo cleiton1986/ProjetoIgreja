@@ -7,6 +7,7 @@ namespace IgrejaJdLilah.Application.Contratos.IgrejaJdLilah
     {
       Task<Evento[]>GetAllEventosByTemaAsync(string tema, bool includePalestrantes);
       Task<Evento[]>GetAllEventosByAsync(bool includePalestrantes);
+      Task<string[]> GetAllEventosImagensByAsync();
       Task<Evento>GetEventoByIdAsync(int eventoId, bool includePalestrantes);      
       Evento GetEventoById(int enventoId, bool includeEndereco);
       Task<Evento> AleterarEvento(Evento model);

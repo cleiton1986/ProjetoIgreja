@@ -1,8 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using IgrejaJdLilah.Domain.Entidades;
+﻿using IgrejaJdLilah.Domain.Entidades;
 using Microsoft.AspNetCore.Mvc;
-using IgrejaJdLilah.Persistence.Contexto;
 using IgrejaJdLilah.Application.Contratos.IgrejaJdLilah;
 using System.Threading.Tasks;
 using System;
@@ -59,6 +56,27 @@ namespace IgrejaJdLilah.API.Controllers
                                         $"Erro ao tentar recuperar eventos, erro: {ex.Message}");
             }
         }
+
+        [HttpGet("imagens")]
+        public async Task<ActionResult<string>> GetAllImagens()
+        {
+            //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
+            //ex: 200, 404
+
+            try
+            {
+                var imagens = await _eventoApp.GetAllEventosImagensByAsync();
+                if (imagens == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
+
+                return Ok(imagens);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError,
+                                         $"Erro ao tentar recuperar eventos, erro: {ex.Message}");
+            }
+        }
+
         [HttpGet("tema/{tema}")]
         public  async Task<IActionResult> GetByTema(string tema)
         {

@@ -9,6 +9,7 @@ namespace IgrejaJdLilah.Domain.Repository.Contrato
     {
       Task<Evento[]>GetAllEventosByTemaAsync(string tema, bool includePalestrantes);
       Task<Evento[]>GetAllEventosByAsync(bool includePalestrantes);
+      Task<string[]> GetAllEventosImagensByAsync();
       Task<Evento>GetEventoByIdAsync(int eventoId, bool includePalestrantes);
       Evento GetEventoById(int enventoId, bool includeEndereco);
       Task<bool> Alterar(Evento model);

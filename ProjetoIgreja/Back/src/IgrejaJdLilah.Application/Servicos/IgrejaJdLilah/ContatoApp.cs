@@ -65,13 +65,13 @@ namespace IgrejaJdLilah.Application.Servicos.IgrejaJdLilah
                  throw new Exception(ex.Message);
             }
         }
-        public async Task<bool> ExcluirContato(int contatoId, bool include)
+        public async Task<bool> ExcluirContato(int contatoId)
         {
              try
             {
                 if(contatoId > 0 )
                 {
-                     var contato =  await _contatoRepository.GetContatoByContatoIdAsync(contatoId, include);
+                     var contato =  await _contatoRepository.GetContatoByContatoIdAsync(contatoId, false);
                      if(contato == null)
                          throw new Exception("O evento para exluir não foi encontrado");
                      else

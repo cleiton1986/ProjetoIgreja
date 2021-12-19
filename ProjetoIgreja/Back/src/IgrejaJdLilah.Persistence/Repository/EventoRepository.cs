@@ -21,20 +21,30 @@ namespace IgrejaJdLilah.Persistence.Repository
 
         public async Task<Evento[]> GetAllEventosByAsync(bool includePalestrante = false)
         {
-             IQueryable<Evento> query = _contexto.Eventos
-                                                 .Include(e => e.Lotes)
-                                                 .Include(e => e.RedeSociais);
+            IQueryable<Evento> query = _contexto.Eventos
+                                                .Include(e => e.Lotes)
+                                                .Include(e => e.RedeSociais);
 
-            if(includePalestrante)
+            if (includePalestrante)
             {
                 query = query
                     .Include(e => e.PalestranteEventos)
                     //Dentro de palestrante eventos inclua os palestrantes
                     .ThenInclude(e => e.Palestrante);
             }
-            
+
             query = query.OrderBy(e => e.Id)
                              .AsNoTracking();
+            return await query.ToArrayAsync();
+        }
+
+        public async Task<string[]> GetAllEventosImagensByAsync()
+        {
+            //IQueryable<byte> query = _contexto.Eventos.AsNoTracking().Select(x => x.ImagemURL);
+            IQueryable<string> query = _contexto.Eventos
+                                                .AsNoTracking()
+                                                .Select(x => x.ImagemURL);
+
             return await query.ToArrayAsync();
         }
         public async Task<Evento[]> GetAllEventosByTemaAsync(string tema, bool includePalestrante = false)
