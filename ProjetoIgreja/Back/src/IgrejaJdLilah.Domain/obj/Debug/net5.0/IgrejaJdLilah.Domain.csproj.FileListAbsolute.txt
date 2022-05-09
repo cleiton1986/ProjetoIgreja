@@ -10,3 +10,15 @@ C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoI
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.dll
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Domain\obj\Debug\net5.0\ref\IgrejaJdLilah.Domain.dll
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\SRC\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.pdb
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\bin\Debug\net5.0\IgrejaJdLilah.Domain.deps.json
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\bin\Debug\net5.0\IgrejaJdLilah.Domain.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\bin\Debug\net5.0\ref\IgrejaJdLilah.Domain.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\bin\Debug\net5.0\IgrejaJdLilah.Domain.pdb
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.csprojAssemblyReference.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.AssemblyInfoInputs.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.AssemblyInfo.cs
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\ref\IgrejaJdLilah.Domain.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Domain\obj\Debug\net5.0\IgrejaJdLilah.Domain.pdb

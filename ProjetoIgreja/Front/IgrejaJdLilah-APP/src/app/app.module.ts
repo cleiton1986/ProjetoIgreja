@@ -13,7 +13,7 @@ import { PalestrantesComponent } from './components/palestrantes/palestrantes.co
 import { NavComponent } from './shared/nav/nav.component';
 import { ContatosComponent } from './components/contatos/contatos.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { PerfilComponent } from './components/perfil/perfil.component';
+import { PerfilComponent } from './components/user/perfil/perfil.component';
 import { TituloComponent } from './shared/titulo/titulo.component';
 
 import { CollapseModule } from 'ngx-bootstrap/collapse';
@@ -26,6 +26,11 @@ import { NgxSpinnerModule } from "ngx-spinner";
 
 import { EventoService } from './services/evento.service';
 import { DateTimeFormatPipe } from './helpers/DateTimeFormat.pipe';
+import { EventoDetalheComponent } from './components/eventos/evento-detalhe/evento-detalhe.component';
+import { EventoListaComponent } from './components/eventos/evento-lista/evento-lista.component';
+import { LoginComponent } from './components/user/login/login.component';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { UserComponent } from './components/user/user.component';
 
 
 @NgModule({
@@ -38,7 +43,12 @@ import { DateTimeFormatPipe } from './helpers/DateTimeFormat.pipe';
       PalestrantesComponent,
       PerfilComponent,
       NavComponent,
-      DateTimeFormatPipe
+      DateTimeFormatPipe,
+      EventoDetalheComponent,
+      EventoListaComponent,
+      LoginComponent,
+      RegistrationComponent,
+      UserComponent
    ],
   imports: [
     BrowserModule,

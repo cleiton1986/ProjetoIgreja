@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj": {}
+    "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj": {
+    "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
+        "projectUniqueName": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
         "projectName": "IgrejaJdLilah.API",
-        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
-        "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\obj\\",
+        "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
+        "packagesPath": "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cleiton Cristovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
-                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj"
+              "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
+                "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj"
               }
             }
           }
@@ -99,17 +99,17 @@
         }
       }
     },
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
+    "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj",
         "projectName": "IgrejaJdLilah.Application",
-        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj",
-        "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\obj\\",
+        "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj",
+        "packagesPath": "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cleiton Cristovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,11 +123,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
-                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj"
+              "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj"
               },
-              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj": {
-                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj"
+              "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj"
               }
             }
           }
@@ -160,17 +160,17 @@
         }
       }
     },
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
+    "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
         "projectName": "IgrejaJdLilah.Domain",
-        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
-        "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
+        "packagesPath": "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cleiton Cristovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -214,17 +214,17 @@
         }
       }
     },
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj": {
+    "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj",
         "projectName": "IgrejaJdLilah.Persistence",
-        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj",
-        "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Persistence\\IgrejaJdLilah.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cleiton Cristovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -238,8 +238,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
-                "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj"
+              "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj"
               }
             }
           }

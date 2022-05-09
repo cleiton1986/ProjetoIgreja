@@ -16,3 +16,21 @@ C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoI
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Persistence.runtimeconfig.json
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Persistence.runtimeconfig.dev.json
 C:\Users\cleit\OneDrive\Área de Trabalho\Cursos Udemy\Net_Core_Angular\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.genruntimeconfig.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Persistence.deps.json
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Persistence.runtimeconfig.json
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Persistence.runtimeconfig.dev.json
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Persistence.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\ref\IgrejaJdLilah.Persistence.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Persistence.pdb
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Domain.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\bin\Debug\net5.0\IgrejaJdLilah.Domain.pdb
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.csprojAssemblyReference.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.AssemblyInfoInputs.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.AssemblyInfo.cs
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.csproj.CopyComplete
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\ref\IgrejaJdLilah.Persistence.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.pdb
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.Persistence\obj\Debug\net5.0\IgrejaJdLilah.Persistence.genruntimeconfig.cache

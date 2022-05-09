@@ -1484,19 +1484,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cleit\\.nuget\\packages\\": {}
+    "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
+      "projectUniqueName": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
       "projectName": "IgrejaJdLilah.API",
-      "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
-      "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.API\\obj\\",
+      "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\IgrejaJdLilah.API.csproj",
+      "packagesPath": "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cleiton Cristovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1510,8 +1510,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
-              "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj"
+            "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj": {
+              "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Application\\IgrejaJdLilah.Application.csproj"
             }
           }
         }

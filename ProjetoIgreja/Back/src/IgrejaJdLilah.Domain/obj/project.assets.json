@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cleit\\.nuget\\packages\\": {}
+    "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\Back\\SRC\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
       "projectName": "IgrejaJdLilah.Domain",
-      "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\Back\\SRC\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
-      "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\Cursos Udemy\\Net_Core_Angular\\ProjetoIgreja\\Back\\SRC\\IgrejaJdLilah.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\IgrejaJdLilah.Domain.csproj",
+      "packagesPath": "C:\\Users\\Cleiton Cristovam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cleiton Cristovam\\Documents\\GitHub\\SiteIgreja\\ProjetoIgreja\\Back\\src\\IgrejaJdLilah.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cleiton Cristovam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
