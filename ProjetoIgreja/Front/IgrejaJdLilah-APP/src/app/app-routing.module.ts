@@ -7,7 +7,7 @@ import { EventoListaComponent } from './components/eventos/evento-lista/evento-l
 import { EventosComponent } from './components/eventos/eventos.component';
 import { PalestrantesComponent } from './components/palestrantes/palestrantes.component';
 import { PerfilComponent } from './components/user/perfil/perfil.component';
-import { RegistrationComponent } from './components/registration/registration.component';
+import { RegistrationComponent } from './components/user/registration/registration.component';
 import { LoginComponent } from './components/user/login/login.component';
 import { UserComponent } from './components/user/user.component';
 
