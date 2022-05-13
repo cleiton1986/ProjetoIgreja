@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -48,7 +48,8 @@ import { UserComponent } from './components/user/user.component';
       EventoListaComponent,
       LoginComponent,
       RegistrationComponent,
-      UserComponent
+      UserComponent,
+
    ],
   imports: [
     BrowserModule,
@@ -56,6 +57,7 @@ import { UserComponent } from './components/user/user.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     CollapseModule.forRoot(),
     TooltipModule.forRoot(),
     BsDropdownModule.forRoot(),
