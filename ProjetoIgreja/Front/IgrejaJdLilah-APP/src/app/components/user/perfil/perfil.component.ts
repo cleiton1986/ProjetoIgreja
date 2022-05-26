@@ -34,11 +34,11 @@ export class PerfilComponent implements OnInit {
         telefone:['',
           [Validators.required, Validators.pattern("^\\d{1,4}$")]
         ],
-        titulo:[null,
+        titulo:['',
           [Validators.required]
         ],
         descricao:['',
-          [Validators.maxLength(10)]
+          [Validators.maxLength(100)]
         ],
         email:['',
            [Validators.required, Validators.email]
