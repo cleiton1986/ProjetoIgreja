@@ -1,6 +1,8 @@
 using System;
 using System.Threading.Tasks;
+using AutoMapper;
 using IgrejaJdLilah.Application.Contratos.IgrejaJdLilah;
+using IgrejaJdLilah.Application.Model;
 using IgrejaJdLilah.Domain.Entidades;
 using IgrejaJdLilah.Domain.Repository.Contrato;
 
@@ -9,37 +11,46 @@ namespace IgrejaJdLilah.Application.Servicos.IgrejaJdLilah
     public class EventoApp : IEventoApp
     {
         private readonly IEventoRepository _eventoRepository;
-        public EventoApp(IEventoRepository eventoRepository) 
+        private readonly IMapper _mapper;
+        public EventoApp(IEventoRepository eventoRepository, IMapper mapper)
         {
-            _eventoRepository = eventoRepository;        
+            _mapper = mapper;
+            _eventoRepository = eventoRepository;
         }
-        public async Task<Evento[]> GetAllEventosByAsync(bool includePalestrantes)
+        public async Task<EventoViewModel[]> GetAllEventosByAsync(bool includePalestrantes)
         {
+            EventoViewModel[] eventoViewModeL = null;
             try
             {
-                var eventos =  await _eventoRepository.GetAllEventosByAsync(includePalestrantes);
-                if(eventos == null) return null;
+                var eventos = await _eventoRepository.GetAllEventosByAsync(includePalestrantes);
+                if (eventos == null) return null;
 
-                return eventos;
+                 eventoViewModeL = _mapper.Map<EventoViewModel[]>(eventos);
+                return eventoViewModeL;
             }
             catch (Exception ex)
             {
-                 throw new Exception(ex.Message);
+                throw new Exception(ex.Message);
             }
         }
-        public async Task<Evento[]> GetAllEventosByTemaAsync(string tema, bool includePalestrantes)
+        public async Task<EventoViewModel[]> GetAllEventosByTemaAsync(string tema, bool includePalestrantes)
         {
             try
             {
-                if(!string.IsNullOrWhiteSpace(tema))
-                   return await _eventoRepository.GetAllEventosByTemaAsync(tema, includePalestrantes);
+                EventoViewModel[] eventoViewModeL = null;
+                if (!string.IsNullOrWhiteSpace(tema))
+                {
+                    var eventos = await _eventoRepository.GetAllEventosByTemaAsync(tema, includePalestrantes);
+                    eventoViewModeL = _mapper.Map<EventoViewModel[]>(eventos);
+                }
+
+                return eventoViewModeL;
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
 
-            return null;
         }
         public async Task<string[]> GetAllEventosImagensByAsync()
         {
@@ -55,90 +66,112 @@ namespace IgrejaJdLilah.Application.Servicos.IgrejaJdLilah
                 throw new Exception(ex.Message);
             }
         }
-        public Evento GetEventoById(int enventoId, bool includeEndereco)
+        public EventoViewModel GetEventoById(int enventoId, bool includeEndereco)
         {
-            var envento = new Evento();
+            var eventoViewModel = new EventoViewModel();
             try
             {
-                if(enventoId > 0 )
-                   envento =  _eventoRepository.GetEventoById(enventoId, includeEndereco);
+                if (enventoId > 0){
+                   var envento = _eventoRepository.GetEventoById(enventoId, includeEndereco);
+                   eventoViewModel = _mapper.Map<EventoViewModel>(envento);
+                }
+                    
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
-            return envento;
+            return eventoViewModel;
         }
-        public async Task<Evento> GetEventoByIdAsync(int eventoId, bool includePalestrantes)
+        public async Task<EventoViewModel> GetEventoByIdAsync(int eventoId, bool includePalestrantes)
         {
+            var eventoViewModel = new EventoViewModel();
             try
             {
-                if(eventoId > 0)
-                   return await _eventoRepository.GetEventoByIdAsync(eventoId, includePalestrantes);
+                if (eventoId > 0)
+                {
+                    var evento =  await _eventoRepository.GetEventoByIdAsync(eventoId, includePalestrantes);
+                    eventoViewModel = _mapper.Map<EventoViewModel>(evento);
+                }
+                    
+                return eventoViewModel;
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
-            return null;
         }
-        public async Task<Evento> AddEvento(Evento model)
+        public async Task<EventoViewModel> AddEvento(EventoViewModel model)
         {
+            var eventoViewModel = new EventoViewModel();
             try
             {
-                if(model != null)
+                if (model != null)
                 {
-                   if(await _eventoRepository.InserirAsync(model))
-                      return await _eventoRepository.GetEventoByIdAsync(model.Id, false);
-                   else
-                      throw new Exception("O evento para inserir não foi encontrado");
-                } 
-            }
-            catch (Exception ex)
-            {
-                 throw new Exception(ex.Message);
-            }
-
-            return null;
-
-        }
-        public async Task<Evento> AleterarEvento(Evento model)
-        {
-            try
-            {
-               if(model != null)
-                {
-                    var evento =  await _eventoRepository.GetEventoByIdAsync(model.Id, false);
-                    if(evento == null)
+                    var evento = _mapper.Map<Evento>(model);
+                    if (await _eventoRepository.InserirAsync(evento))
                     {
-                       throw new Exception("O evento para exluir não foi encontrado");
-                    }
+                         var eventoRetorno = await _eventoRepository.GetEventoByIdAsync(model.Id, false);
+                        eventoViewModel = _mapper.Map<EventoViewModel>(eventoRetorno);
+                        return eventoViewModel;
+                    }       
                     else
-                    {
-                        model.Id = evento.Id;
-                        if(await _eventoRepository.Alterar(model))
-                           return  await _eventoRepository.GetEventoByIdAsync(model.Id, false);
-                    }
-                      
+                        throw new Exception("O evento para inserir não foi encontrado");
                 }
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
+
             return null;
+
+        }
+        public async Task<EventoViewModel> AleterarEvento(EventoViewModel model)
+        {
+            var eventoViewModel = new EventoViewModel();
+            try
+            {
+                
+                if (model != null)
+                {
+                    var evento = await _eventoRepository.GetEventoByIdAsync(model.Id, false);
+                    if (evento == null)
+                    {
+                        throw new Exception("O evento para exluir não foi encontrado");
+                    }
+                    else
+                    {
+
+                        model.Id = evento.Id;
+                         var envento = _mapper.Map<Evento>(model);
+
+                        if (await _eventoRepository.Alterar(envento)){
+                            var eventos =  await _eventoRepository.GetEventoByIdAsync(model.Id, false);
+                            eventoViewModel = _mapper.Map<EventoViewModel>(eventos);
+                        }
+  
+                    }
+                }
+
+                return eventoViewModel;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
         public async Task<bool> ExcluirEvento(int eventoId)
         {
-             try
+            try
             {
-                if(eventoId > 0 )
+                if (eventoId > 0)
                 {
-                     var evento = await  _eventoRepository.GetEventoByIdAsync(eventoId, false);
-                     if(evento == null)
-                         throw new Exception("O evento para exluir não foi encontrado");
-                     else
-                        return  await _eventoRepository.Excluir(evento);
+                    var evento = await _eventoRepository.GetEventoByIdAsync(eventoId, false);
+                    if (evento == null)
+                        throw new Exception("O evento para exluir não foi encontrado");
+                    else
+                        return await _eventoRepository.Excluir(evento);
                 }
             }
             catch (Exception ex)
@@ -147,18 +180,22 @@ namespace IgrejaJdLilah.Application.Servicos.IgrejaJdLilah
             }
             return false;
         }
-        public async Task<bool> ExcluirEventoRange(Evento[] model)
+        public async Task<bool> ExcluirEventoRange(EventoViewModel[] model)
         {
+            
             try
             {
-                if(model != null)
-                   return await _eventoRepository.ExcluirRange(model);
+                if (model != null){
+                   var eventos = _mapper.Map<Evento[]>(model);
+                   return await _eventoRepository.ExcluirRange(eventos);
+                }
+                   
                 else
-                   throw new Exception("O evento para exluir em lote não foi encontrado");
+                    throw new Exception("O evento para exluir em lote não foi encontrado");
             }
             catch (Exception ex)
             {
-                 throw new Exception(ex.Message);
+                throw new Exception(ex.Message);
             }
         }
 

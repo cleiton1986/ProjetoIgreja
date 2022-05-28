@@ -190,3 +190,9 @@ C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\Ig
 C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\obj\Debug\net5.0\ref\IgrejaJdLilah.API.dll
 C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.pdb
 C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\obj\Debug\net5.0\IgrejaJdLilah.API.genruntimeconfig.cache
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Cleiton Cristovam\Documents\GitHub\SiteIgreja\ProjetoIgreja\Back\src\IgrejaJdLilah.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

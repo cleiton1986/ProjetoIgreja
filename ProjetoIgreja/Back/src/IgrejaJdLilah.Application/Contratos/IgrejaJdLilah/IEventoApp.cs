@@ -1,18 +1,19 @@
 using System.Threading.Tasks;
+using IgrejaJdLilah.Application.Model;
 using IgrejaJdLilah.Domain.Entidades;
 
 namespace IgrejaJdLilah.Application.Contratos.IgrejaJdLilah
 {
     public interface IEventoApp
     {
-      Task<Evento[]>GetAllEventosByTemaAsync(string tema, bool includePalestrantes);
-      Task<Evento[]>GetAllEventosByAsync(bool includePalestrantes);
+      Task<EventoViewModel[]>GetAllEventosByTemaAsync(string tema, bool includePalestrantes);
+      Task<EventoViewModel[]>GetAllEventosByAsync(bool includePalestrantes);
       Task<string[]> GetAllEventosImagensByAsync();
-      Task<Evento>GetEventoByIdAsync(int eventoId, bool includePalestrantes);      
-      Evento GetEventoById(int enventoId, bool includeEndereco);
-      Task<Evento> AleterarEvento(Evento model);
+      Task<EventoViewModel>GetEventoByIdAsync(int eventoId, bool includePalestrantes);      
+      EventoViewModel GetEventoById(int enventoId, bool includeEndereco);
+      Task<EventoViewModel> AleterarEvento(EventoViewModel model);
       Task<bool> ExcluirEvento(int eventoId);
-      Task<bool> ExcluirEventoRange(Evento[] model);
-      Task<Evento>AddEvento(Evento model);
+      Task<bool> ExcluirEventoRange(EventoViewModel[] model);
+      Task<EventoViewModel>AddEvento(EventoViewModel model);
     }
 }

@@ -4,6 +4,8 @@ using IgrejaJdLilah.Application.Contratos.IgrejaJdLilah;
 using System.Threading.Tasks;
 using System;
 using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using IgrejaJdLilah.Application.Model;
 
 namespace IgrejaJdLilah.API.Controllers
 {
@@ -18,7 +20,7 @@ namespace IgrejaJdLilah.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public  async Task<ActionResult<Evento>> GetById(int id)
+        public  async Task<ActionResult<EventoViewModel>> GetById(int id)
         {
            //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
             //ex: 200, 404
@@ -45,10 +47,10 @@ namespace IgrejaJdLilah.API.Controllers
            
             try 
             {
-               var evento = await _eventoApp.GetAllEventosByAsync(true);
-               if(evento == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
-               
-               return Ok(evento);
+               var eventos = await _eventoApp.GetAllEventosByAsync(true);
+               if(eventos == null) return NotFound(this.StatusCode(StatusCodes.Status404NotFound));
+
+               return Ok(eventos);
             }
             catch(Exception ex)
             {
@@ -98,7 +100,7 @@ namespace IgrejaJdLilah.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Evento model)
+        public async Task<IActionResult> Post(EventoViewModel model)
         {
             //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
             //ex: 200, 404
@@ -118,7 +120,7 @@ namespace IgrejaJdLilah.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(Evento model)
+        public async Task<IActionResult> Put(EventoViewModel model)
         {
             //ActionResult = Retorna o status code do Http e tb posso especificar o tipo
             //ex: 200, 404

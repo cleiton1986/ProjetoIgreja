@@ -11,6 +11,9 @@ using IgrejaJdLilah.Application.Servicos.IgrejaJdLilah;
 using IgrejaJdLilah.Domain.Repository.Contrato;
 using IgrejaJdLilah.Persistence.Repository;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using AutoMapper;
+using System;
+using IgrejaJdLilah.Application.Base;
 
 namespace IgrejaJdLilah.API
 {
@@ -43,6 +46,21 @@ namespace IgrejaJdLilah.API
                     );
 
 
+           /*
+           //Outra forma de configuração do AutoMapper
+             var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new EntidadeParaViewModel());
+                mc.AddProfile(new ViewModelParaEntidade());
+            });
+
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
+           
+           */
+
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             //Aqui Especifico a referencia da injeção de dependia pelo controller
             services.AddScoped<IEventoApp, EventoApp>();
