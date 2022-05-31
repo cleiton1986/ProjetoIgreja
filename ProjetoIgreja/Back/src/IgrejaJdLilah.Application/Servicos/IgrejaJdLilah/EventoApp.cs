@@ -111,7 +111,7 @@ namespace IgrejaJdLilah.Application.Servicos.IgrejaJdLilah
                     var evento = _mapper.Map<Evento>(model);
                     if (await _eventoRepository.InserirAsync(evento))
                     {
-                         var eventoRetorno = await _eventoRepository.GetEventoByIdAsync(model.Id, false);
+                         var eventoRetorno = await _eventoRepository.GetEventoByIdAsync(evento.Id, false);
                         eventoViewModel = _mapper.Map<EventoViewModel>(eventoRetorno);
                         return eventoViewModel;
                     }       
@@ -147,7 +147,7 @@ namespace IgrejaJdLilah.Application.Servicos.IgrejaJdLilah
                          var envento = _mapper.Map<Evento>(model);
 
                         if (await _eventoRepository.Alterar(envento)){
-                            var eventos =  await _eventoRepository.GetEventoByIdAsync(model.Id, false);
+                            var eventos =  await _eventoRepository.GetEventoByIdAsync(envento.Id, false);
                             eventoViewModel = _mapper.Map<EventoViewModel>(eventos);
                         }
   

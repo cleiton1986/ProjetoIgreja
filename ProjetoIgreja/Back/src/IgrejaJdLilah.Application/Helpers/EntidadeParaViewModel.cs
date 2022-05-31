@@ -8,7 +8,14 @@ namespace IgrejaJdLilah.Application.Helpers
     {
         public EntidadeParaViewModel()
         {
-            CreateMap<EventoViewModel, Evento>();
+           // CreateMap<EventoViewModel, Evento>().ReverseMap();
+             CreateMap<EventoViewModel, Evento>();
+            CreateMap<EnderecoViewModel, Endereco>();
+            CreateMap<LoteViewModel, Lote>();
+            CreateMap<PalestranteEventoViewModel, PalestranteEvento>();
+            CreateMap<PalestranteViewModel, Palestrante>();
+            CreateMap<RedeSocialViewModel, RedeSocial>();
+            
         }
     }
 }

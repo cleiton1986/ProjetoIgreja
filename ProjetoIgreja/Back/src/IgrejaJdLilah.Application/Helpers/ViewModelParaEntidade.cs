@@ -9,6 +9,11 @@ namespace IgrejaJdLilah.API.Dtos.Helpers
         public ViewModelParaEntidade()
         {
             CreateMap<Evento, EventoViewModel>();
+            CreateMap<Endereco, EnderecoViewModel>();
+            CreateMap<Lote, LoteViewModel>();
+            CreateMap<PalestranteEvento, PalestranteEventoViewModel>();
+            CreateMap<Palestrante, PalestranteViewModel>();
+            CreateMap<RedeSocial, RedeSocialViewModel>();
         }
         
     }

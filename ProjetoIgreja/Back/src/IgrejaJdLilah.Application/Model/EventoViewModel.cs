@@ -14,8 +14,8 @@ namespace IgrejaJdLilah.Application.Model
        public string Telefone { get; set; }
        public string Email { get; set; }
        public string Observacao { get; set; }
-      // public IEnumerable<Lote> Lotes { get; set; } 
-       //public IEnumerable<RedeSocial> RedeSociais { get; set; } 
-       //public IEnumerable<PalestranteEvento> PalestranteEventos { get; set; }
+       public IEnumerable<LoteViewModel> Lotes { get; set; } 
+       public IEnumerable<RedeSocialViewModel> RedeSociais { get; set; } 
+       public IEnumerable<PalestranteEventoViewModel> PalestranteEventos { get; set; }
     }
 }
